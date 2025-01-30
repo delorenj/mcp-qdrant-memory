@@ -1,5 +1,7 @@
 # MCP Memory Server with Qdrant Persistence
 
+[![smithery badge](https://smithery.ai/badge/@delorenj/mcp-qdrant-memory)](https://smithery.ai/server/@delorenj/mcp-qdrant-memory)
+
 This MCP server provides a knowledge graph implementation with semantic search capabilities powered by Qdrant vector database.
 
 ## Features
@@ -29,6 +31,14 @@ QDRANT_COLLECTION_NAME=your-collection-name
 ```
 
 ## Setup
+
+### Installing via Smithery
+
+To install Memory Server with Qdrant Persistence for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@delorenj/mcp-qdrant-memory):
+
+```bash
+npx -y @smithery/cli install @delorenj/mcp-qdrant-memory --client claude
+```
 
 1. Install dependencies:
 ```bash
